@@ -1,0 +1,39 @@
+.header {
+  background: #292929;
+  height: 14rem;
+  color: #fff;
+  padding-left: 9.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.header > div {
+  width: 19.3rem;
+  height: 6rem;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 960px) {
+  .header {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .header > div {
+    width: 10.8rem;
+    height: 3.358rem;
+  }
+  .header h2 {
+    font-size: 1.8rem;
+  }
+}
