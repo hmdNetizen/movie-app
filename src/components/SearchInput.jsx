@@ -10,7 +10,7 @@ const SearchInput = (props) => {
     setLoading(true);
     try {
       const { data } = await axios.get(
-        `http://www.omdbapi.com/?s=${query}&apikey=${process.env.REACT_APP_API_KEY}`
+        `http://www.omdbapi.com/?s=${query}&apikey=e8b32741`
       );
 
       if (data.Response === "True") {
